@@ -10,4 +10,5 @@ let categoriaSchema = Schema({
   descripcion: String,
 });
 // Se exporta el modulo
-module.exports = mongoose.model("categoria", categoriaSchema);
+const Categoria = mongoose.model("categoria", categoriaSchema);
+module.exports = Categoria;

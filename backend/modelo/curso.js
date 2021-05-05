@@ -11,7 +11,7 @@ let cursoSchema = Schema({
   precioTotal: Number,
   precioCompra: Number,
   cupos: Number,
-  idcategoria: { type: Schema.ObjectId, ref: "categoria" },
+  idCategoria: { type: Schema.ObjectId, ref: "categoria" },
   puntos: Number,
 });
 // Se exporta el modulo

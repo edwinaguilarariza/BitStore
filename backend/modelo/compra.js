@@ -12,3 +12,4 @@ let compraSchema = Schema({
 // Se exporta el modulo
 module.exports = mongoose.model("compra", compraSchema);
 
+
